@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mta"
+version = "0.1.0"
+description = ""
+authors = ["Elizaveta Petiaeva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+streamlit = "^1.40.2"
+numpy = "^1.26.0"
+scikit-learn = "^1.5.2"
+arrow = "^1.3.0"
+ast-tools = "^0.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
